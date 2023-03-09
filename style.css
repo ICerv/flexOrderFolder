@@ -4,15 +4,21 @@
 :before {
   box-sizing: border-box;
 }
+
 .container {
   border: 1px solid #bfd6e6;
   background-color: #dde9f3;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
 .activity {
   margin: 10px;
   background-size: contain;
   width: 300px;
   height: 200px;
+  display: flex;
 }
 
 .read {
@@ -20,6 +26,7 @@
 }
 
 .cook {
+  order: -1;
   background-image: url("img/cook.jpg");
 }
 
